@@ -1,0 +1,41 @@
+Informe del Grupo J
+
+1. Pasos realizados.
+	- Se creó el repositorio ToDoApp-GrupoJ en GitHub.
+	- Cada miembro creó una rama (jose-polo, juan-herrera, Juan-Tuiran)
+	- Implementamos funcionalidades y resolvimos conflictos.
+
+2. Comandos Git
+
+	- git clone <https://github.com/jaherrera2004/ToDoApp-grupo-j> : Clonar el repositorio.
+	- git checkout -b juan-herrera : Crear rama.
+	- git add . : Añadir cambios.
+	- git commit -m "mensaje" : Hacer commit.
+	- git push origin juan-herrera : Empujar rama.
+	- git merge juan-Tuiran : Fusionar rama con conflicto.
+	- git push origin --delete juan-herrera : Eliminar rama.
+
+3. Conflictos
+	
+	- Conflicto cen task_model.py entre is_completed/is_done y mark_as_complete/set_done.
+	- Solución: Combinamos métodos, manteniendo is_completed como atributo principal.
+
+4. Contribuciones
+
+	-Juan Herrera: Añadio mask_as_complete y actualizó main.py.
+	-Jose Polo: Añadió delete_task y actualizó README.md
+	-Juan Tuirán: Simuló conflicto con set_done/remove_task y lo resolvió.
+
+5. Reflexiones
+
+	- ¿Cómo coordinaron el trabajo en equipo para evitar conflictos innecesarios?
+  		Hablamos previamente qué archivos tocaría cada uno y qué funciones tendría su rama.
+
+	- ¿Qué aprendieron sobre la resolución de conflictos en Git?
+  		Que hay que leer cuidadosamente el contenido en conflicto y no sobrescribir el trabajo de otros.
+
+	- ¿Por qué es importante usar Pull Requests en proyectos colaborativos?
+  		Porque permiten revisar y aprobar los cambios antes de fusionarlos, evitando errores.
+
+	- ¿Cómo podría mejorarse el flujo de trabajo con herramientas como CI/CD?
+  		Automatizando pruebas para detectar errores antes de hacer merge y despliegues automáticos tras aprobar los cambios.
